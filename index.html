@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> Star Wars RPG </title>
+      <!-- Bootstrap CDN -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link rel="stylesheet" href="starwars.css" type="text/css">
+   </head>
+   <body>
+      <div class = "container-fluid">
+         <div class = "jumbotron header-panel">
+            <h2>Star Wars RPG</h2>
+         </div>
+      </div>
+      <div class = "container">
+      <!-- Fight Area -->
+      <div class="panel panel-default battle-panel">
+         <div class ="row">
+            <div class= "col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <div class= "panel-heading">
+                  <h3> Battle Arena </h3>
+               </div>
+            </div>
+         </div>
+         <div class="panel-body">
+            <div class = "row">
+               <div class = "col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <h4> Player Character </h4>
+                  <div id = "Player"> </div>
+               </div>
+               <div class = "col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <button type="button" class="btn btn-danger center-block" id="atkBtn">Attack</button>
+
+               </div>
+               <div class = "col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <h4> Computer Character </h4>
+                  <div id ="Cpu"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Hero / Villian Selction -->
+      <div class= "panel panel-default char-select-panel">
+         <div class ="row">
+            <div class="panel-heading">
+               <div class= "col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h4 class = "char-select"> Choose Your Hero </h4>
+               </div>
+            </div>
+         </div>
+         <div class = "panel-body">
+            <div class = "row">
+               <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3 img-responsive">
+                  <img src  = "Assets/Images/rsz_chewy2.png" id ="chewy" class= "img-responsive" width= "180px" height="180px">
+               </div>
+               
+               <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3 img-responsive">
+                  <img src  = "Assets/Images/rsz_finn.jpg" class= "img-responsive" width ="180px" height="180px">
+               </div>
+               <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3 img-responsive">
+                  <img src = "Assets/Images/rsz_Mace-Windu.jpg" class= "img-responsive" width="180px" height="180px">
+               </div>
+               <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3 img-responsive">
+                  <img src = "Assets/Images/rsz_wampa.jpg" class= "img-responsive" width="180px" height="180px">
+               </div>
+            </div>
+         </div>
+      </div>
